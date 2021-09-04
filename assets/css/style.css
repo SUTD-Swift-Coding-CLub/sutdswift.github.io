@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #272829;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -80,8 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
+  width: 100px;
+  /* border: 8px solid #2c2f3f; */
 }
 
 #header .profile h1 {
@@ -91,31 +91,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-#header .profile .social-links a {
-  font-size: 16px;
-  display: inline-block;
-  background: #212431;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#header .profile .social-links a:hover {
-  background: #149ddd;
   color: #fff;
   text-decoration: none;
 }
@@ -214,7 +193,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   padding: 10pt;
-  /* background: linear-gradient(to top left, #fcba03, #ee5622); */
   background: linear-gradient(to top left, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff);
   background-size:auto;
 }
@@ -247,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #hero p span {
@@ -333,34 +311,19 @@ section {
 }
 
 /*--------------------------------------------------------------
-# What to Expect
---------------------------------------------------------------*/
-
-/* --------------------------------------------------------------
-# Session Details
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
 }
 
-.contact .info {
-  padding: 30px;
-  background: #fff;
-  width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
-
-.contact .info i {
-  font-size: 20px;
+.contact i {
+  font-size: 30px;
   color: #149ddd;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -368,7 +331,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h4 {
+.contact h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
@@ -376,45 +339,11 @@ section {
   color: #050d18;
 }
 
-.contact .info p {
+.contact p {
   padding: 0 0 10px 60px;
-  /* padding-bottom: 10px; */
   margin-bottom: 20px;
   font-size: 14px;
   color: #173b6c;
-}
-
-.contact .info .email p {
-  padding-top: 5px;
-}
-
-.contact .info .social-links {
-  padding-left: 60px;
-}
-
-.contact .info .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  margin-right: 10px;
-}
-
-.contact .info .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
-}
-
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
-  color: #fff;
 }
 
 @-webkit-keyframes animate-loading {
@@ -432,51 +361,6 @@ section {
   }
   100% {
     transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background: #f9f9f9;
-}
-
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 300;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 15px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #0e2442;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
   }
 }
 
