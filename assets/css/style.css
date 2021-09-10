@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 30px;
+  padding: 20px;
   overflow: hidden;
 }
 
@@ -291,6 +291,18 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Upcoming
+--------------------------------------------------------------*/
+
+.upcoming .content img {
+  /* padding: 10px; */
+  /* width: fit-content;
+  object-fit: contain; */
+  max-width: 100%;
+  height: auto;
 }
 
 /*--------------------------------------------------------------
