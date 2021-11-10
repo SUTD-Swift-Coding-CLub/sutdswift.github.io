@@ -23,7 +23,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Roboto", sans-serif;
 }
 
@@ -94,7 +99,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -131,7 +137,8 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 
-.nav-menu a, .nav-menu a:focus {
+.nav-menu a,
+.nav-menu a:focus {
   display: flex;
   align-items: center;
   color: #a8a9b4;
@@ -141,18 +148,25 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu a i,
+.nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -193,8 +207,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   padding: 10pt;
-  background: linear-gradient(to top left, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff);
-  background-size:auto;
+  background: linear-gradient(
+    to top left,
+    #ffbe0b,
+    #fb5607,
+    #ff006e,
+    #8338ec,
+    #3a86ff
+  );
+  background-size: auto;
 }
 
 #hero:before {
@@ -279,7 +300,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -359,9 +380,13 @@ section {
 }
 
 .contact p {
-  padding: 0 0 10px 60px;
-  margin-bottom: 20px;
+  padding: 0 0 0 60px;
+  /* margin-bottom: 20px; */
   font-size: 14px;
+  color: #173b6c;
+}
+
+.contact a {
   color: #173b6c;
 }
 
