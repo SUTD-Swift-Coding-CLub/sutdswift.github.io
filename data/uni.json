@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "One",
+        "school": "SUTD",
+        "appName": "appName",
+        "members": [
+            "Alice",
+            "Bob",
+            "Charlie"
+        ],
+        "poster": "path",
+        "pitch": "path"
+    },
+    {
+        "id": 2,
+        "name": "Two",
+        "school": "SUTD",
+        "appName": "appName",
+        "members": [
+            "Alice",
+            "Bob",
+            "Charlie"
+        ],
+        "poster": "path",
+        "pitch": "path"
+    },
+    {
+        "id": 3,
+        "name": "Three",
+        "school": "SUTD",
+        "appName": "appName",
+        "members": [
+            "Alice",
+            "Bob",
+            "Charlie"
+        ],
+        "poster": "path",
+        "pitch": "path"
+    },
+    {
+        "id": 4,
+        "name": "Four",
+        "school": "SUTD",
+        "appName": "appName",
+        "members": [
+            "Alice",
+            "Bob",
+            "Charlie"
+        ],
+        "poster": "path",
+        "pitch": "path"
+    },
+    {
+        "id": 5,
+        "name": "Five",
+        "school": "SUTD",
+        "appName": "appName",
+        "members": [
+            "Alice",
+            "Bob",
+            "Charlie"
+        ],
+        "poster": "path",
+        "pitch": "path"
+    },
+    {
+        "id": 6,
+        "name": "Six",
+        "school": "SUTD",
+        "appName": "appName",
+        "members": [
+            "Alice",
+            "Bob",
+            "Charlie"
+        ],
+        "poster": "path",
+        "pitch": "path"
+    }
+]

@@ -1,444 +1,125 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Swift Coding Club</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUTD Swift Coding Club</title>
+  <link href="assets/Swift_logo_color.png" rel="icon">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
 
-    <!-- Favicons -->
-    <link href="assets/img/Swift_logo_color.png" rel="icon" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: iPortfolio - v3.3.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-  </head>
-
-  <body>
-    <!-- ======= Mobile nav toggle button ======= -->
-    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-    <!-- ======= Header ======= -->
-    <header id="header">
-      <div class="d-flex flex-column">
-        <div class="profile">
-          <img src="assets/img/Swift_logo_color.png" alt="" class="img-fluid" />
-          <h1 class="text-light"><a href="index.html">Swift Coding Club</a></h1>
+<body class="flex flex-col h-screen justify-between">
+  <!--navbar-->
+  <nav class="bg-gray-800 p-3">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+      <a class="flex flex-row gap-2 items-center" href="#">
+        <img src="img/swift_logo.svg" alt="Swift Logo" class="h-8 w-8">
+        <span class="text-lg font-bold text-white hover:text-blue-400">SUTD Swift Coding Club</span>
+      </a>
+      <a href="about.html">
+        <span class="text-lg text-gray-100 hover:text-blue-400">About</span>
+      </a>
+    </div>
+  </nav>
+  <!--main-->
+  <main class="flex flex-col px-10 md:px-20 py-8 gap-10 text-gray-700">
+    <!--hero unit-->
+    <div class="text-gray-500 font-medium max-w-2xl self-center mb-10">
+      <p class="text-2xl">SUTD Swift Coding Club</p>
+      <p class="text-xl">presents</p>
+      <p class="text-yellow-500 text-4xl font-bold">Swift Inclusive App Hackathon 2022</p>
+    </div>
+    <!--hackathon details-->
+    <div class="flex flex-col md:flex-row gap-5 items-center">
+      <img src="img/swift_logo.svg" alt="Swift Logo" class="h-20 w-20">
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Quis auctor elit sed vulputate mi sit. In vitae turpis massa sed elementum tempus egestas.
+        Faucibus nisl tincidunt eget nullam non nisi. Morbi tincidunt ornare massa eget egestas purus viverra.
+        Ullamcorper sit amet risus nullam eget felis eget. Feugiat nisl pretium fusce id velit ut tortor pretium
+        viverra. Laoreet sit amet cursus sit amet dictum. Fringilla urna porttitor rhoncus dolor. Tincidunt id aliquet
+        risus feugiat in ante.</span>
+    </div>
+    <!--timeline-->
+    <div class="flex flex-col">
+      <h1 class="font-bold text-xl text-gray-800">Timeline</h1>
+      <div class="flex flex-col md:flex-row gap-3 self-center items-center text-center mt-2">
+        <div class="flex flex-col text-gray-400">
+          <span>NOV - DEC</span>
+          <span class="text-2xl font-bold">Training</span>
+          <span>Completed</span>
         </div>
-
-        <nav id="navbar" class="nav-menu navbar">
-          <ul>
-            <li>
-              <a href="#hero" class="nav-link scrollto active"
-                ><i class="bx bx-home"></i> <span>Home</span></a
-              >
-            </li>
-            <li>
-              <a href="#about" class="nav-link scrollto"
-                ><i class="bx bx-user"></i> <span>About Us</span></a
-              >
-            </li>
-            <li>
-              <a href="#expect" class="nav-link scrollto"
-                ><i class="bx bx-star"></i> <span>What to Expect</span></a
-              >
-            </li>
-            <li>
-              <a href="#sessions" class="nav-link scrollto"
-                ><i class="bx bx-info-circle"></i>
-                <span>Session Details</span></a
-              >
-            </li>
-            <li>
-              <a href="#contact" class="nav-link scrollto"
-                ><i class="bx bx-envelope"></i> <span>Contact</span></a
-              >
-            </li>
-          </ul>
-        </nav>
-        <!-- .nav-menu -->
-      </div>
-    </header>
-    <!-- End Header -->
-
-    <!-- ======= Hero Section ======= -->
-    <section
-      id="hero"
-      class="d-flex flex-column justify-content-center align-items-center"
-    >
-      <div class="hero-container" data-aos="fade-in">
-        <h1>Swift Coding Club</h1>
-        <p>SUTD's very own community of Swift developers</p>
-      </div>
-    </section>
-    <!-- End Hero -->
-
-    <main id="main">
-      <!-- ======= Upcoming Section =======-->
-      <!-- <section id="upcoming" class="upcoming section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Upcoming Events</h2>
-          </div>
-          <div class="content">
-            <h3>Introduction Session</h3>
-            <p>
-              Join us for an introduction session where we'll be sharing more
-              about our club and upcoming activities with you!
-              <br/>
-              <div>
-                <strong>Session Details:</strong>
-                <p>Friday, 17 September (3pm - 4pm) and Monday, 20 September (7:30pm
-                  - 8:30pm)</p>
-              </div>
-              <div>
-                <p><strong>Venue: </strong> Microsoft Teams</p>
-              </div>
-              <div>
-                <p>Scan the QR code below or <a href="https://forms.office.com/r/P26vKmS6Zg">click here</a> to sign up now!</p>
-              </div>
-            </p>
-            <img src="assets/img/misc/Banner.png" />
-          </div>
+        <i class='bx bx-chevron-down bx-md text-gray-600 transform md:-rotate-90'></i>
+        <div class="flex flex-col text-yellow-500">
+          <span>JAN</span>
+          <span class="text-2xl font-bold">Design</span>
+          <span class="font-medium">Happening now!</span>
         </div>
-      </section> -->
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container">
-          <div class="section-title">
-            <h2>About Us</h2>
-            <p>
-              The first of its kind, SUTD Swift Coding Club prides itself as the
-              joint collaboration between SUTD and the Apple Education
-              programme, and is the sole pioneer of Swift Education at the
-              tertiary-education level. All club members are proud members of
-              the iOS programming community.
-            </p>
-          </div>
-          <div class="content">
-            <div class="row">
-              <h3>Mission Statement</h3>
-              <p>
-                To build a collaborative and innovative community of Swift
-                learners and kickstart the journey to become a proficient iOS
-                developer.
-              </p>
-            </div>
-            <h3>Club Values</h3>
-            <div class="row no-gutters">
-              <div
-                class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="col">
-                  <p><strong>Activeness, Fun, Vibrancy</strong></p>
-                  <p>
-                    To build a collaborative and innovative community of Swift
-                    learners and kickstart the journey to become a proficient
-                    iOS developer.
-                  </p>
-                </div>
-              </div>
-              <div
-                class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="col">
-                  <p><strong>Contribution to SUTD & Community</strong></p>
-                  <p>
-                    Market the school as the pioneering tertiary education
-                    institution that has direct ties with Apple, and to
-                    potentially create iOS Apps for the school.
-                  </p>
-                </div>
-              </div>
-              <div
-                class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div class="col">
-                  <p><strong>Creativity & Innovation</strong></p>
-                  <p>
-                    Members are freely able to pursue whatever project they
-                    wish, and can conduct any Swift-related workshops.
-                    Creativity and innovation is not only in abundance in our
-                    club, but is the core value here.
-                  </p>
-                </div>
-              </div>
-              <div
-                class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <div class="col">
-                  <p><strong>Empowerment of Members</strong></p>
-                  <p>
-                    Nurture and provide opportunities for club members to lead,
-                    plan and run club activities and projects.
-                  </p>
-                </div>
-              </div>
-              <div
-                class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
-                <div class="col">
-                  <p><strong>Collaboration</strong></p>
-                  <p>
-                    Nurture and provide opportunities for club members to lead,
-                    plan and run club activities and projects.
-                  </p>
-                </div>
-              </div>
-              <div
-                class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-                data-aos-delay="600"
-              >
-                <div class="col">
-                  <p><strong>Personal Skills Development</strong></p>
-                  <p>
-                    Allow members to develop potential and capabilities through
-                    exposing them to our carefully curated course syllabus,
-                    competition, workshops and projects.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <h3>Club Exco</h3>
-            <div class="row">
-              <img
-                src="assets/img/exco/Nicole.png"
-                class="col-lg-4 col-md-6 d-md-flex"
-              />
-              <img
-                src="assets/img/exco/Glen.png"
-                class="col-lg-4 col-md-6 d-md-flex"
-              />
-              <img
-                src="assets/img/exco/Qi Yan.png"
-                class="col-lg-4 col-md-6 d-md-flex"
-              />
-              <img
-                src="assets/img/exco/Anshiqa.png"
-                class="col-lg-4 col-md-6 d-md-flex"
-              />
-              <img
-                src="assets/img/exco/Riley.png"
-                class="col-lg-4 col-md-6 d-md-flex"
-              />
-              <img
-                src="assets/img/exco/Caryl.png"
-                class="col-lg-4 col-md-6 d-md-flex"
-              />
-            </div>
-          </div>
+        <i class='bx bx-chevron-down bx-md text-gray-600 transform md:-rotate-90'></i>
+        <div class="flex flex-col text-gray-600">
+          <span>JAN - MAY</span>
+          <span class="text-2xl font-bold">Development</span>
+          <span>Upcoming</span>
         </div>
-      </section>
-      <!-- End About Section -->
-
-      <!-- ======= What to Expect Section ======= -->
-      <section id="expect" class="expect section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>What To Expect</h2>
-          </div>
-          <div class="row">
-            <div class="col-md-6 icon-box" data-aos="fade-up">
-              <h4 class="title">Training</h4>
-              <p class="description">
-                A dedicated curriculum to teach incoming members the foundations
-                of Swift/iOS development conducted regularly over an entire term
-              </p>
-            </div>
-            <div
-              class="col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <h4 class="title">Competition</h4>
-              <p class="description">
-                An annual Swift App Development Competition open to both club
-                members and the SUTD community
-              </p>
-            </div>
-            <div
-              class="col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <h4 class="title">Industry Exposure</h4>
-              <p class="description">
-                Talks conducted by Apple Engineers and exclusive trips to Apple
-                HQ (subject to COVID-19 restrictions)
-              </p>
-            </div>
-            <div
-              class="col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <h4 class="title">Community</h4>
-              <p class="description">
-                A community of like-minded individuals passionate about iOS
-                development to share and receive learning opportunities
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Resume Section -->
-
-      <!-- ======= Session Details Section ======= -->
-      <section id="sessions" class="sessions">
-        <div class="container">
-          <div class="section-title">
-            <h2>Session Details</h2>
-          </div>
-          <div class="row">
-            <div
-              class="col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <h4 class="title">Pre-requisites</h4>
-              <p class="description">
-                Members are <strong>required</strong> to have a Macbook/iMac in
-                order to write and run Swift code during the sessions, and for
-                personal practice.
-              </p>
-            </div>
-            <div
-              class="col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <h4 class="title">Dates and Time</h4>
-              <p class="description">Alternating Friday afternoons</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Contact Us</h2>
-          </div>
-          <div class="row">
-            <div
-              class="col-md-4 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <a href="https://www.instagram.com/sutd_swiftcodingclub/">
-                <i class="bx bxl-instagram shadow-sm"></i>
-                <h4>Instagram</h4>
-                <p>@sutd_swiftcodingclub</p>
-              </a>
-            </div>
-            <div
-              class="col-md-4 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <i class="bx bxl-telegram shadow-sm"></i>
-              <h4>Telegram</h4>
-              <p>
-                <a href="https://t.me/NandosSG">Glen (Vice President)</a>
-                <br />
-                <a href="https://t.me/carrotbeetrice"
-                  >Caryl (Director of Publicity)</a
-                >
-              </p>
-            </div>
-            <div
-              class="col-md-4 icon-box"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <a href="https://github.com/SUTDSwift">
-                <i class="bx bxl-github shadow-sm"></i>
-                <h4>GitHub</h4>
-                <p>SUTDSwift</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>iPortfolio</span></strong>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <i class='bx bx-chevron-down bx-md text-gray-600 transform md:-rotate-90'></i>
+        <div class="flex flex-col text-gray-600">
+          <span>MAY</span>
+          <span class="text-2xl font-bold">Deploy</span>
+          <span>Upcoming</span>
         </div>
       </div>
-    </footer>
-    <!-- End  Footer -->
+    </div>
+    <!--events section-->
+    <div>
+      <h1 class="font-bold text-xl text-gray-800">Design</h1>
+      <div class="flex flex-col md:flex-row gap-5 mt-2">
+        <div>
+          <h2 class="font-semibold text-gray-500 text-lg">Swift IAP Workshop</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Lectus sit amet est placerat in egestas erat imperdiet. Cursus vitae congue mauris
+            rhoncus aenean vel. Est ante in nibh mauris. Vulputate ut pharetra sit amet.</span>
+          <button class="mt-2 block border-gray-500 border-2 rounded-xl font-semibold px-4 py-2 text-gray-500" disabled>
+            <span>More Info</span>
+          </button>
+        </div>
+        <div>
+          <h2 class="font-semibold text-gray-500 text-lg">Swift Design Showcase</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Lectus sit amet est placerat in egestas erat imperdiet. Cursus vitae congue mauris
+            rhoncus aenean vel. Est ante in nibh mauris. Vulputate ut pharetra sit amet.</span>
+          <a href="showcase.html">
+            <button type="button"
+              class="mt-2 block border-gray-500 border-2 rounded-xl font-semibold focus:outline-none focus:border-gray-500 px-4 py-2 text-gray-500 hover:bg-gray-500 hover:text-white">
+              <span>View Showcase</span>
+          </a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--watch section-->
+    <div class="text-center">
+      <span class="text-yellow-500 text-3xl font-semibold">Watch this space for more details on DEVELOPMENT
+        and DEPLOY phases.</span>
+    </div>
+  </main>
+  <footer class="bg-blue-300 text-white flex flex-col gap-3 items-center p-5">
+    <span class="font-medium font-lg">SUTD Swift Coding Club</span>
+    <div class="flex flex-row gap-5">
+      <a class="hover:text-blue-500" href="https://t.me/+TyDaT9AhI01kMTVl">
+        <i class='bx bxl-telegram bx-md'></i>
+      </a>
+      <a class="hover:text-blue-500" href="https://www.instagram.com/sutd_swiftcodingclub/">
+        <i class='bx bxl-instagram-alt bx-md'></i>
+      </a>
+      <a class="hover:text-blue-500" href="https://github.com/SUTDSwift">
+        <i class='bx bxl-github bx-md'></i>
+      </a>
+      <a class="hover:text-blue-500" href="mailto:swiftcoding@ig.sutd.edu.sg">
+        <i class='bx bxs-envelope bx-md'></i>
+      </a>
+    </div>
+  </footer>
+</body>
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
 </html>
