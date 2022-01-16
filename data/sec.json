@@ -1,0 +1,80 @@
+[
+    {
+        "name": "One",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 1 App",
+        "oneLiner": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "members": [
+            "Stephany Newton",
+            "Zackery Bright",
+            "Deshawn Barnett"
+        ],
+        "poster": "https://placekitten.com/150/200",
+        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
+    },
+    {
+        "name": "Two",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 2 App",
+        "oneLiner": "Sit amet luctus venenatis lectus magna fringilla urna porttitor.",
+        "members": [
+            "Cullen Lucero",
+            "Nikolai Crosby",
+            "Karen Salinas"
+        ],
+        "poster": "https://placekitten.com/150/200",
+        "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
+    },
+    {
+        "name": "Three",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 3 App",
+        "oneLiner": "Enim blandit volutpat maecenas volutpat blandit aliquam etiam.",
+        "members": [
+            "Leon Adkins",
+            "Terrell Curry",
+            "Damari Holder"
+        ],
+        "poster": "https://placekitten.com/150/200",
+        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
+    },
+    {
+        "name": "Four",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 4 App",
+        "oneLiner": "Egestas sed tempus urna et pharetra pharetra.",
+        "members": [
+            "Yadira Bernard",
+            "Briley Munoz",
+            "Deon Benitez"
+        ],
+        "poster": "https://placekitten.com/150/200",
+        "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
+    },
+    {
+        "name": "Five",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 5 App",
+        "oneLiner": "Eget aliquet nibh praesent tristique.",
+        "members": [
+            "Colin Kline",
+            "Marley Booker",
+            "Holden Heath"
+        ],
+        "poster": "https://placekitten.com/150/200",
+        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
+    },
+    {
+        "name": "Six",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 6 App",
+        "oneLiner": "Consectetur a erat nam at lectus urna duis.",
+        "members": [
+            "Clarence Villanueva",
+            "Zane Becker",
+            "Kody Harding"
+        ],
+        "poster": "https://placekitten.com/150/200",
+        "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
+    }
+]

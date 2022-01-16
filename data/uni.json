@@ -1,80 +1,74 @@
 [
     {
-        "id": 1,
         "name": "One",
-        "school": "SUTD",
-        "appName": "appName",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 1 App",
+        "oneLiner": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "members": [
             "Alice",
             "Bob",
             "Charlie"
         ],
-        "poster": "path",
-        "pitch": "path"
+        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
     },
     {
-        "id": 2,
         "name": "Two",
-        "school": "SUTD",
-        "appName": "appName",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 2 App",
+        "oneLiner": "Sit amet luctus venenatis lectus magna fringilla urna porttitor.",
         "members": [
             "Alice",
             "Bob",
             "Charlie"
         ],
-        "poster": "path",
-        "pitch": "path"
+        "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
     },
     {
-        "id": 3,
         "name": "Three",
-        "school": "SUTD",
-        "appName": "appName",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 3 App",
+        "oneLiner": "Enim blandit volutpat maecenas volutpat blandit aliquam etiam.",
         "members": [
-            "Alice",
-            "Bob",
-            "Charlie"
+            "Stephany Newton",
+            "Zackery Bright",
+            "Deshawn Barnett"
         ],
-        "poster": "path",
-        "pitch": "path"
+        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
     },
     {
-        "id": 4,
         "name": "Four",
-        "school": "SUTD",
-        "appName": "appName",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 4 App",
+        "oneLiner": "Egestas sed tempus urna et pharetra pharetra.",
         "members": [
             "Alice",
             "Bob",
             "Charlie"
         ],
-        "poster": "path",
-        "pitch": "path"
+        "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
     },
     {
-        "id": 5,
         "name": "Five",
-        "school": "SUTD",
-        "appName": "appName",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 5 App",
+        "oneLiner": "Eget aliquet nibh praesent tristique.",
         "members": [
             "Alice",
             "Bob",
             "Charlie"
         ],
-        "poster": "path",
-        "pitch": "path"
+        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
     },
     {
-        "id": 6,
         "name": "Six",
-        "school": "SUTD",
-        "appName": "appName",
+        "school": "Singapore University of Technology and Design",
+        "appName": "Group 6 App",
+        "oneLiner": "Consectetur a erat nam at lectus urna duis.",
         "members": [
             "Alice",
             "Bob",
             "Charlie"
         ],
-        "poster": "path",
-        "pitch": "path"
+        "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
     }
 ]
