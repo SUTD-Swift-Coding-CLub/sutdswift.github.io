@@ -12,57 +12,66 @@
 
 <body class="flex flex-col h-screen justify-between">
   <!--navbar-->
-  <nav class="bg-gray-800 p-3">
-    <div class="container mx-auto flex flex-wrap items-center justify-between">
+  <nav class="bg-gray-800 py-6">
+    <div class="container mx-auto flex flex-wrap items-center justify-between max-w-5xl px-10 md:px-0">
       <a class="flex flex-row gap-2 items-center" href="#">
-        <img src="img/swift_logo.svg" alt="Swift Logo" class="h-8 w-8">
-        <span class="text-lg font-bold text-white hover:text-blue-400">SUTD Swift Coding Club</span>
+        <!-- <img src="img/swift_logo.svg" alt="Swift Logo" class="h-8 w-8"> -->
+        <p class="text-md font-medium text-white hover:text-yellow-500">Swift Coding Club</p>
       </a>
-      <a href="about.html">
-        <span class="text-lg text-gray-100 hover:text-blue-400">About</span>
-      </a>
+
+      <div class="">
+        <a href="about.html">
+          <span class="text-md text-gray-100 hover:text-yellow-500 tracking-wide mr-6">About</span>
+        </a>
+
+        <a href="showcase.html">
+          <span class="text-md text-gray-100 hover:text-yellow-500 tracking-wide">Showcase</span>
+        </a>
+      </div>
     </div>
   </nav>
   <!--main-->
-  <main class="flex flex-col px-10 md:px-20 py-8 gap-10 text-gray-700 max-w-5xl self-center">
+  <main class="flex flex-col px-10 md:px-0 py-8 gap-10 text-gray-700 max-w-5xl self-center">
     <!--hero unit-->
-    <div class="text-gray-500 font-medium max-w-2xl self-center mb-10">
-      <p class="text-2xl">SUTD Swift Coding Club</p>
-      <p class="text-xl">presents</p>
-      <p class="text-yellow-500 text-4xl font-bold">Swift Inclusive App Hackathon 2022</p>
+    <div class="text-black font-medium max-w-2xl flex flex-col justify-center pt-44 pb-24">
+      <h1 class="text-4xl">SUTD Swift Coding Club</h1>
+      <h2 class="text-lg italic text-gray-400">presents</h2>
+      <h1 class="text-yellow-500 text-7xl font-extrabold tracking-wide py-6">Inclusive App Dev Hackathon 2022</h1>
     </div>
     <!--hackathon details-->
-    <div class="flex flex-col md:flex-row gap-5 items-center">
-      <img src="img/swift_logo.svg" alt="Swift Logo" class="h-20 w-20">
-      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    <div class="flex flex-col md:flex-row items-center py-20">
+      <div class="flex justify-center w-full py-10 md:py-0 md:px-20">
+        <img src="img/swift_logo.svg" alt="Swift Logo" class="w-1\/3">
+      </div>
+      <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Quis auctor elit sed vulputate mi sit. In vitae turpis massa sed elementum tempus egestas.
         Faucibus nisl tincidunt eget nullam non nisi. Morbi tincidunt ornare massa eget egestas purus viverra.
         Ullamcorper sit amet risus nullam eget felis eget. Feugiat nisl pretium fusce id velit ut tortor pretium
         viverra. Laoreet sit amet cursus sit amet dictum. Fringilla urna porttitor rhoncus dolor. Tincidunt id aliquet
-        risus feugiat in ante.</span>
+        risus feugiat in ante.</p>
     </div>
     <!--timeline-->
-    <div class="flex flex-col">
-      <h1 class="font-bold text-2xl text-gray-800">Timeline</h1>
-      <div class="flex flex-col md:flex-row gap-3 self-center items-center text-center mt-2">
+    <div class="flex flex-col py-32">
+      <h1 class="font-black text-3xl text-gray-800 uppercase tracking-wide">Timeline</h1>
+      <div class="flex flex-col md:flex-row mt-20 self-center items-center text-center mt-2">
         <div class="flex flex-col text-gray-400">
           <span>NOV - DEC</span>
           <span class="text-2xl font-bold">Training</span>
           <span>Completed</span>
         </div>
-        <i class='bx bx-chevron-down bx-md text-gray-600 transform md:-rotate-90'></i>
+        <i class='bx bx-chevron-down bx-md text-gray-600 transform md:-rotate-90 px-10'></i>
         <div class="flex flex-col text-yellow-500">
           <span>JAN</span>
           <span class="text-2xl font-bold">Design</span>
           <span class="font-medium">Happening now!</span>
         </div>
-        <i class='bx bx-chevron-down bx-md text-gray-600 transform md:-rotate-90'></i>
+        <i class='bx bx-chevron-down bx-md text-gray-600 transform md:-rotate-90 px-10'></i>
         <div class="flex flex-col text-gray-600">
           <span>JAN - MAY</span>
-          <span class="text-2xl font-bold">Development</span>
+          <span class="text-2xl font-bold">Develop</span>
           <span>Upcoming</span>
         </div>
-        <i class='bx bx-chevron-down bx-md text-gray-600 transform md:-rotate-90'></i>
+        <i class='bx bx-chevron-down bx-md text-gray-600 transform md:-rotate-90 px-10'></i>
         <div class="flex flex-col text-gray-600">
           <span>MAY</span>
           <span class="text-2xl font-bold">Deploy</span>
@@ -71,54 +80,63 @@
       </div>
     </div>
     <!--events section-->
-    <div>
-      <h1 class="font-bold text-2xl text-gray-800">Design</h1>
-      <div class="flex flex-col md:flex-row gap-8 mt-2">
-        <div>
-          <h2 class="font-semibold text-gray-500 text-lg">Swift IAP Workshop</h2>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    <div class="py-32">
+      <h1 class="font-black text-3xl text-gray-800 uppercase tracking-wide">Design Phase</h1>
+      <div class="flex flex-col md:flex-row gap-16 md\:gap-32 mt-8">
+        <div class="p-10">
+          <h2 class="font-bold text-2xl tracking-wide"><span class="text-gray-300">01.</span> Swift IAP Workshop</h2>
+          <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Lectus sit amet est placerat in egestas erat imperdiet. Cursus vitae congue mauris
-            rhoncus aenean vel. Est ante in nibh mauris. Vulputate ut pharetra sit amet.</span>
-          <button
-            class="mt-2 block border-gray-500 border rounded-xl font-medium px-4 py-2 text-gray-500 cursor-not-allowed"
+            rhoncus aenean vel. Est ante in nibh mauris. Vulputate ut pharetra sit amet.</p>
+          <!-- <button
+            class="mt-2 block border-gray-500 border rounded-md font-medium px-4 py-2 text-gray-500 cursor-not-allowed"
             isabled>
-            More Info
-          </button>
+            Completed!
+          </button> -->
         </div>
-        <div>
-          <h2 class="font-semibold text-gray-500 text-lg">Swift Design Showcase</h2>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        <div class="p-10 shadow-md">
+          <h2 class="font-bold text-2xl tracking-wide"><span class="text-gray-300">02.</span> Swift Design Showcase</h2>
+          <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Lectus sit amet est placerat in egestas erat imperdiet. Cursus vitae congue mauris
-            rhoncus aenean vel. Est ante in nibh mauris. Vulputate ut pharetra sit amet.</span>
-          <a href="showcase.html">
-            <button type="button"
-              class="mt-2 block border-gray-500 border rounded-xl font-medium focus:outline-none focus:border-gray-500 px-4 py-2 text-gray-500 hover:bg-gray-500 hover:text-white">
-              <span>View Showcase</span>
-          </a>
-          </button>
+            rhoncus aenean vel. Est ante in nibh mauris. Vulputate ut pharetra sit amet.</p>
+          <div>
+            <a href="#">
+              <button type="button"
+                class="mt-2 block border-yellow-500 border rounded-none font-medium focus:outline-none focus:border-gray-500 px-4 py-2 text-yellow-500 hover:bg-yellow-500 hover:text-white">
+                <span class="uppercase tracking-wide">Register</span>
+              </button>
+            </a>
+
+            <!-- <a href="showcase.html">
+              <button type="button"
+                class="mt-2 block border-gray-500 border rounded-md font-medium focus:outline-none focus:border-gray-500 px-4 py-2 text-gray-500 hover:bg-gray-500 hover:text-white">
+                <span>View Showcase</span>
+              </button>
+            </a> -->
+          </div>
         </div>
       </div>
     </div>
     <!--watch section-->
-    <div class="text-center my-10">
-      <span class="text-yellow-500 text-3xl font-semibold">Watch this space for more details on DEVELOPMENT
-        and DEPLOY phases.</span>
-    </div>
+    <!-- <div class="text-center py-24">
+      <p class="text-yellow-500 text-2xl tracking-wide">Watch this space for more details on <span class="font-bold">DEVELOPMENT</span>
+        and <span class="font-bold">DEPLOY</span> phases.</p>
+    </div> -->
   </main>
-  <footer class="bg-blue-300 text-white flex flex-col gap-3 items-center p-5">
-    <span class="font-medium font-lg">SUTD Swift Coding Club</span>
-    <div class="flex flex-row gap-5">
-      <a class="hover:text-blue-500" href="https://t.me/+TyDaT9AhI01kMTVl">
-        <i class='bx bxl-telegram bx-md'></i>
+  <footer class="bg-gray-800 text-white flex flex-col gap-3 items-center py-10">
+    <span class="font-medium font-lg mb-4">SUTD Swift Coding Club</span>
+    <div class="flex flex-row gap-7">
+      <a class="hover:text-yellow-500" href="https://t.me/+TyDaT9AhI01kMTVl">
+        <i class='bx bxl-telegram bx-sm'></i>
       </a>
-      <a class="hover:text-blue-500" href="https://www.instagram.com/sutd_swiftcodingclub/">
-        <i class='bx bxl-instagram-alt bx-md'></i>
+      <a class="hover:text-yellow-500" href="https://www.instagram.com/sutd_swiftcodingclub/">
+        <i class='bx bxl-instagram-alt bx-sm'></i>
       </a>
-      <a class="hover:text-blue-500" href="https://github.com/SUTDSwift">
-        <i class='bx bxl-github bx-md'></i>
+      <a class="hover:text-yellow-500" href="https://github.com/SUTDSwift">
+        <i class='bx bxl-github bx-sm'></i>
       </a>
-      <a class="hover:text-blue-500" href="mailto:swiftcoding@ig.sutd.edu.sg">
-        <i class='bx bxs-envelope bx-md'></i>
+      <a class="hover:text-yellow-500" href="mailto:swiftcoding@ig.sutd.edu.sg">
+        <i class='bx bxs-envelope bx-sm'></i>
       </a>
     </div>
   </footer>
