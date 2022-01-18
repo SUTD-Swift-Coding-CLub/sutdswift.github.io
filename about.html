@@ -12,24 +12,31 @@
 
 <body class="flex flex-col h-screen justify-between">
     <!--navbar-->
-    <nav class="bg-gray-800 border-gray-200 p-3">
-        <div class="container mx-auto flex flex-wrap items-center justify-between">
-            <a class="flex flex-row gap-2 items-center" href="index.html">
-                <img src="img/swift_logo.svg" alt="Swift Logo" class="h-8 w-8">
-                <span class="text-lg font-bold text-white hover:text-blue-400">SUTD Swift Coding Club</span>
+    <nav class="bg-gray-800 py-6">
+        <div class="container mx-auto flex flex-wrap items-center justify-between max-w-5xl px-10 md:px-0">
+            <a class="flex flex-row gap-2 items-center" href="/">
+                <!-- <img src="img/swift_logo.svg" alt="Swift Logo" class="h-8 w-8"> -->
+                <p class="text-md font-medium text-white hover:text-yellow-500">Swift Coding Club</p>
             </a>
-            <a href="index.html">
-                <span class="text-lg text-gray-100 hover:text-blue-400">Home</span>
-            </a>
+
+            <div class="">
+                <a href="about.html">
+                <span class="text-md text-yellow-500 hover:text-yellow-500 tracking-wide mr-6">About</span>
+                </a>
+
+                <a href="showcase.html">
+                <span class="text-md text-gray-100 hover:text-yellow-500 tracking-wide">Showcase</span>
+                </a>
+            </div>
         </div>
     </nav>
 
     <!--hero-->
-    <div class="flex flex-wrap w-full justify-center items-center md:space-x-4 py-12 px-6 bg-gray-100">
+    <div class="flex flex-wrap w-full justify-center items-center md:space-x-4 py-16 px-6 bg-gray-100">
         <img src="img/swift_logo.svg" alt="Swift Logo" class="h-20 w-20">
         <div class="text-center lg:text-left">
             <h1 class="text-4xl font-extrabold">SUTD Swift Coding Club</h1>
-            <span class="font-medium text-gray-500">SUTD's very own community of iOS developers</span>
+            <h2 class="font-medium text-gray-500">SUTD's community of iOS developers</h2>
         </div>
     </div>
 
@@ -37,23 +44,23 @@
     <main class="p-10 max-w-4xl self-center">
         <!--about us-->
         <div id="about-us" class="mb-10">
-            <h2 class="text-3xl font-semibold text-gray-900">About Us</h2>
-            <span class="text-gray-700">The first of its kind, SUTD Swift Coding Club prides itself as the joint
+            <h2 class="font-black text-3xl text-gray-800 uppercase tracking-wide mb-4 text-right">About Us</h2>
+            <p class="text-gray-700">The first of its kind, SUTD Swift Coding Club prides itself as the joint
                 collaboration between SUTD and
                 the Apple Education programme, and is the sole pioneer of Swift Education at the tertiary-education
                 level.
-                Club members are all proud members of the iOS programming community.</span>
+                Club members are all proud members of the iOS programming community.</p>
 
             <!--mission statement-->
-            <div class="my-4">
-                <div class="text-right">
-                    <h3 class="text-2xl font-semibold text-gray-700 text-right">Mission Statement</h3>
-                    <span class="text-gray-700">To build a collaborative and innovative community of Swift
+            <div class="">
+                <div class="py-32 text-center">
+                    <h2 class="font-black text-3xl text-gray-800 uppercase tracking-wide mb-4">Our Mission</h2>
+                    <h3 class="text-2xl text-gray-700">To build a collaborative and innovative community of Swift
                         learners and
                         kickstart
                         the journey to become
                         a
-                        proficient iOS developer.</span>
+                        proficient iOS developer.</h3>
                 </div>
 
 
@@ -108,38 +115,50 @@
                 </div> -->
 
                 <!--exco-->
-                <div class="my-4">
-                    <h3 class="text-2xl font-semibold text-gray-700">Meet the Exco</h3>
-                    <div class="grid md:grid-flow-col md:grid-cols-3 md:grid-rows-2 gap-4 text-gray-700 font-medium">
-                        <div class="flex flex-col items-center">
-                            <img class="h-48 w-48" src="img/Nicole.png" alt="Nicole">
-                            <span>Nicole (CSD)</span>
-                            <span>President</span>
+                <div class="py-32">
+                    <h2 class="font-black text-3xl text-gray-800 uppercase tracking-wide mb-14 ">Executive Committee</h2>
+                    <div class="grid md:grid-flow-col md:grid-cols-3 md:grid-rows-2 gap-x-5 gap-y-10 text-gray-700 font-medium">
+                        <div class="flex items-center">
+                            <img class="h-36 w-36" src="img/Nicole.png" alt="Nicole">
+                            <div>
+                                <h2 class="text-lg mt-3">Nicole</h2>
+                                <h3 class="font-light">President</h3>
+                            </div>
                         </div>
-                        <div class="flex flex-col items-center">
-                            <img class="h-48 w-48" src="img/Glen.jpg" alt="Glen">
-                            <span>Glen (CSD)</span>
-                            <span>Vice President</span>
+                        <div class="flex items-center">
+                            <img class="h-36 w-36" src="img/Glen.jpg" alt="Glen">
+                            <div>
+                                <h2 class="text-lg mt-3">Glen</h2>
+                                <h3 class="font-light">Vice President</h3>
+                            </div>
                         </div>
-                        <div class="flex flex-col items-center">
-                            <img class="h-48 w-48" src="img/Qi Yan.png" alt="Qi Yan">
-                            <span>Qi Yan (CSD)</span>
-                            <span>Secretary</span>
+                        <div class="flex items-center">
+                            <img class="h-36 w-36" src="img/Qi Yan.png" alt="Qi Yan">
+                            <div>
+                                <h2 class="text-lg mt-3">Qi Yan</h2>
+                                <h3 class="font-light">Secretary</h3>
+                            </div>
                         </div>
-                        <div class="flex flex-col items-center">
-                            <img class="h-48 w-48" src="img/Anshiqa.png" alt="Anshiqa">
-                            <span>Anshiqa (EPD)</span>
-                            <span>Treasurer</span>
+                        <div class="flex items-center">
+                            <img class="h-36 w-36" src="img/Anshiqa.png" alt="Anshiqa">
+                            <div>
+                                <h2 class="text-lg mt-3">Anshiqa</h2>
+                                <h3 class="font-light">Treasurer, Partnerships</h3>
+                            </div>
                         </div>
-                        <div class="flex flex-col items-center">
-                            <img class="h-48 w-48 p-5" src="img/Riley.png" alt="Riley">
-                            <span>Riley (CSD)</span>
-                            <span>Director of Learning</span>
+                        <div class="flex items-center">
+                            <img class="h-36 w-36 p-4" src="img/Riley.png" alt="Riley">
+                            <div>
+                                <h2 class="text-lg mt-3">Riley</h2>
+                                <h3 class="font-light">Learning</h3>
+                            </div>
                         </div>
-                        <div class="flex flex-col items-center">
-                            <img class="h-48 w-48" src="img/Caryl.png" alt="Caryl">
-                            <span>Caryl (CSD)</span>
-                            <span>Director of Publicity</span>
+                        <div class="flex items-center">
+                            <img class="h-36 w-36" src="img/Caryl.png" alt="Caryl">
+                            <div>
+                                <h2 class="text-lg mt-3">Caryl</h2>
+                                <h3 class="font-light">Publicity</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -173,23 +192,23 @@
       </div>
     </div> -->
     </main>
+    <footer class="bg-gray-800 text-white flex flex-col gap-3 items-center py-10">
+        <span class="font-medium font-lg mb-4">SUTD Swift Coding Club</span>
+        <div class="flex flex-row gap-7">
+        <a class="hover:text-yellow-500" href="https://t.me/+TyDaT9AhI01kMTVl">
+            <i class='bx bxl-telegram bx-sm'></i>
+        </a>
+        <a class="hover:text-yellow-500" href="https://www.instagram.com/sutd_swiftcodingclub/">
+            <i class='bx bxl-instagram-alt bx-sm'></i>
+        </a>
+        <a class="hover:text-yellow-500" href="https://github.com/SUTDSwift">
+            <i class='bx bxl-github bx-sm'></i>
+        </a>
+        <a class="hover:text-yellow-500" href="mailto:swiftcoding@ig.sutd.edu.sg">
+            <i class='bx bxs-envelope bx-sm'></i>
+        </a>
+        </div>
+    </footer>
 </body>
-<footer class="bg-blue-300 text-white flex flex-col gap-3 items-center p-5">
-    <span class="font-medium font-lg">SUTD Swift Coding Club</span>
-    <div class="flex flex-row gap-5">
-        <a class="hover:text-blue-500" href="https://t.me/+TyDaT9AhI01kMTVl">
-            <i class='bx bxl-telegram bx-md'></i>
-        </a>
-        <a class="hover:text-blue-500" href="https://www.instagram.com/sutd_swiftcodingclub/">
-            <i class='bx bxl-instagram-alt bx-md'></i>
-        </a>
-        <a class="hover:text-blue-500" href="https://github.com/SUTDSwift">
-            <i class='bx bxl-github bx-md'></i>
-        </a>
-        <a class="hover:text-blue-500" href="mailto:swiftcoding@ig.sutd.edu.sg">
-            <i class='bx bxs-envelope bx-md'></i>
-        </a>
-    </div>
-</footer>
 
 </html>
