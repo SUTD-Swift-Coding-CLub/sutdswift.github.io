@@ -1,80 +1,67 @@
 [
     {
-        "name": "One",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 1 App",
-        "oneLiner": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "name": "Sprout",
+        "school": "Nan Hua High School",
+        "appName": "HealthPoint",
         "members": [
-            "Stephany Newton",
-            "Zackery Bright",
-            "Deshawn Barnett"
+            "Cheng Tze Hai Nicholas",
+            "Lim Yu Han",
+            "Lai Yi Jie Issac",
+            "Tham Jie You, Hovan"
         ],
-        "poster": "https://placekitten.com/150/200",
-        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
+        "poster": "/assets/posters/HealthPoint.pdf",
+        "pitch": "https://www.youtube.com/embed/kgoCl_PHaX0"
     },
     {
-        "name": "Two",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 2 App",
-        "oneLiner": "Sit amet luctus venenatis lectus magna fringilla urna porttitor.",
+        "name": "#grup-2",
+        "school": "Raffles Girls' School (Secondary)",
+        "appName": "Magnum Focus",
         "members": [
-            "Cullen Lucero",
-            "Nikolai Crosby",
-            "Karen Salinas"
+            "Mantha Akshara",
+            "Shu Yinjia",
+            "Rachel Goh ",
+            "Kiera Nadine"
         ],
-        "poster": "https://placekitten.com/150/200",
-        "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
+        "poster": "/assets/posters/MagnumFocus.pdf",
+        "pitch": "https://youtube.com/embed/ldgJJGglu6I"
     },
     {
-        "name": "Three",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 3 App",
-        "oneLiner": "Enim blandit volutpat maecenas volutpat blandit aliquam etiam.",
+        "name": "Ducky Planner",
+        "school": "Clementi Town Secondary School",
+        "appName": "Ducky Planner",
         "members": [
-            "Leon Adkins",
-            "Terrell Curry",
-            "Damari Holder"
+            "Hebe Bernicia Lau Hui Qi",
+            "Kong Shiu Xun Zackery",
+            "Vijeyakumar Dakshaa"
         ],
-        "poster": "https://placekitten.com/150/200",
-        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
+        "poster": "/assets/posters/DuckyPlanner.pdf",
+        "pitch": "https://youtube.com/embed/NRg6dWgIRGE"
     },
     {
-        "name": "Four",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 4 App",
-        "oneLiner": "Egestas sed tempus urna et pharetra pharetra.",
+        "name": "Parrot Patrol",
+        "school": "Singapore Chinese Girls' School",
+        "appName": "Parrot Patrol",
         "members": [
-            "Yadira Bernard",
-            "Briley Munoz",
-            "Deon Benitez"
+            "Ashley Aatiqah Lim",
+            "Chin Wai Teng",
+            "Chng Yong Hui Felicity",
+            "Chow Ying Qian",
+            "Lim Shuen Yu Calista"
         ],
-        "poster": "https://placekitten.com/150/200",
-        "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
+        "poster": "/assets/posters/ParrotPatrol.pdf",
+        "pitch": "https://www.youtube.com/embed/YnqEBO1Pm7c"
     },
     {
-        "name": "Five",
-        "school": "Singapore University of Technology and Design",
+        "name": "Group 3",
+        "school": "Crescent Girls' School",
         "appName": "Group 5 App",
-        "oneLiner": "Eget aliquet nibh praesent tristique.",
         "members": [
-            "Colin Kline",
-            "Marley Booker",
-            "Holden Heath"
+            "Cherry Kyaw Kyaw",
+            "Chai Sheenyee",
+            "Kaivalya Lakshimi Lanka",
+            "Nuhaa Afaf Aman"
         ],
-        "poster": "https://placekitten.com/150/200",
-        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
-    },
-    {
-        "name": "Six",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 6 App",
-        "oneLiner": "Consectetur a erat nam at lectus urna duis.",
-        "members": [
-            "Clarence Villanueva",
-            "Zane Becker",
-            "Kody Harding"
-        ],
-        "poster": "https://placekitten.com/150/200",
-        "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
+        "poster": "/assets/posters/StudyPal.pdf",
+        "pitch": "https://www.youtube.com/embed/z4mtfWLqxhw"
     }
 ]
