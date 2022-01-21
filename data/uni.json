@@ -1,74 +1,70 @@
 [
     {
-        "name": "One",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 1 App",
-        "oneLiner": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "name": "PurView Hackers",
+        "appName": "VoiceBus",
+        "oneLiner": "An app which helps the SAVH to  board buses conveniently by helping them know the bus stop and bus timings",
         "members": [
-            "Alice",
-            "Bob",
-            "Charlie"
-        ],
-        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
-    },
-    {
-        "name": "Two",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 2 App",
-        "oneLiner": "Sit amet luctus venenatis lectus magna fringilla urna porttitor.",
-        "members": [
-            "Alice",
-            "Bob",
-            "Charlie"
+            "Umang Sanjeev Gupta",
+            "Hoo Yong Wei, Gerald",
+            "Priscilla Pearly Tan Pei En",
+            "Aishwarya D/O RM Palanaippan"
         ],
         "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
     },
     {
-        "name": "Three",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 3 App",
-        "oneLiner": "Enim blandit volutpat maecenas volutpat blandit aliquam etiam.",
+        "name": "COLOURme",
+        "appName": "COLOURme",
+        "oneLiner": "An app designed to help make clothing colour identification and matching more accessible to the colour blind.",
         "members": [
-            "Stephany Newton",
-            "Zackery Bright",
-            "Deshawn Barnett"
+            "Leemah Bisht",
+            "Artiga Samantha",
+            "Fu Meihui"
         ],
         "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
     },
     {
-        "name": "Four",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 4 App",
-        "oneLiner": "Egestas sed tempus urna et pharetra pharetra.",
+        "name": "Underpromise",
+        "appName": "Roadeyes",
+        "oneLiner": "Our app aims to assist the blind to walk in straight lines on the road",
         "members": [
-            "Alice",
-            "Bob",
-            "Charlie"
+            "Keith Chua",
+            "Daniel Yuen",
+            "Ng Zheng Han"
         ],
         "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
     },
     {
-        "name": "Five",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 5 App",
-        "oneLiner": "Eget aliquet nibh praesent tristique.",
+        "name": "Aural Delicacy",
+        "appName": "Read My Menu",
+        "oneLiner": "App that aims to help blind and visually impaired browse menu independently and conveniently when dining in. Volunteers can help take photos of menus and upload them onto our database. We will use text recognition to extract item name, description and cost, and use computer vision to categorise them.",
         "members": [
-            "Alice",
-            "Bob",
-            "Charlie"
+            "Luah Shi Hui",
+            "Visshal Natarajan",
+            "Ryan Pan Tang Kai",
+            "Keshav Natarajan"
         ],
         "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
     },
     {
-        "name": "Six",
-        "school": "Singapore University of Technology and Design",
-        "appName": "Group 6 App",
-        "oneLiner": "Consectetur a erat nam at lectus urna duis.",
+        "name": "WTH",
+        "appName": "CrossRoads",
+        "oneLiner": "An app which uses the iPhone camera to inform our visually impaired users on the type of crossing ahead and assists them in determining if it is safe to cross",
         "members": [
-            "Alice",
-            "Bob",
-            "Charlie"
+            "Han Wei Guang",
+            "Jodi Wu",
+            "Tee Zhi Zhang"
         ],
         "pitch": "https://www.youtube.com/embed/IPyAjPpqavE"
+    },
+    {
+        "name": "WADILO",
+        "appName": "WEFIND",
+        "oneLiner": "what's up? Just a guided vision for the visually handicapped folks",
+        "members": [
+            "Melody Leong",
+            "Azeez Raasheeda Fathima",
+            "Tan Li Yuan"
+        ],
+        "pitch": "https://www.youtube.com/embed/3X2d1_spnKs"
     }
 ]
