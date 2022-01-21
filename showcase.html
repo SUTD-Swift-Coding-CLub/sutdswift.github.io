@@ -105,18 +105,19 @@
         </div> -->
 
         <!--secondary school section-->
-        <!-- <div class="py-32">
+        <div class="py-32">
             <h2 class="font-black text-3xl text-gray-800 uppercase tracking-wide">Secondary School Submissions</h2>
-            <div id="sec-section" class="grid grid-flow-row grid-cols-2 md:grid-cols-3 gap-4 mt-3"></div>
-        </div> -->
+            <div id="sec-section" class="grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 gap-4 mt-3"></div>
+        </div>
 
         <!--modal-->
         <div id="default-modal" aria-hidden="true"
-            class="hidden overflow-y-auto overflow-x-hidden fixed right-0 left-0 top-4 z-50 justify-center items-center h-modal md:h-full md:inset-0">
+            class="hidden overflow-y-auto overflow-x-hidden fixed right-0 left-0 top-4 z-50 justify-center items-center md:inset-0 h-modal sm:h-full">
             <div class="relative px-4 w-full max-w-3xl h-full md:h-auto">
+                <!--modal content-->
                 <div class="flex flex-col relative bg-white rounded-lg shadow dark:bg-gray-700">
+                    <!--modal header-->
                     <div class="flex justify-between items-start p-5">
-                        </h3>
                         <button type="button"
                             class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
                             data-modal-toggle="default-modal">
@@ -128,23 +129,26 @@
                             </svg>
                         </button>
                     </div>
-                    <div class="flex flex-col pb-4 px-8 space-y-6">
+                    <!--modal body-->
+                    <div class="flex flex-col pb-4 px-8 space-y-6 h-full">
                         <div class="flex flex-row gap-4 text-left">
                             <div class="flex-grow">
                                 <h3 id="modal-title" class="font-bold text-2xl tracking-wide text-gray-900"></h3>
                                 <p id="modal-school" class="text-gray-500 mb-3"></p>
                                 <p id="modal-members" class="flex flex-col text-gray-700"></p>
                             </div>
+                            <!--poster-->
                             <a id="modal-poster-hl" href="#" target="_blank"
                                 class="flex flex-col items-center text-gray-700 hover:text-blue-500 hover:underline hidden">
                                 <img id="modal-poster" class="h-32" src="#" alt="Poster">
                                 <span>View poster in new tab</span>
                             </a>
-
                         </div>
-                        <div class="self-center my-10">
-                            <iframe id="ytplayer" width="560" height="315" src="" title="YouTube video player"
-                                frameborder="0"
+                        <!--pitch video-->
+                        <div class="self-center w-full my-10 relative h-0 overflow-hidden"
+                            style="padding-bottom: 56.25%; padding-top: 35px;">
+                            <iframe id="ytplayer" src="" title="YouTube video player" frameborder="0"
+                                class="bg-red-200 absolute top-0 left-0 w-full h-full"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
@@ -209,10 +213,10 @@
             $.getJSON("data/sec.json", res => {
                 $.each(res, (i, val) => {
                     var submission = `
-                    <div class="flex flex-col text-gray-600 p-4">
-                        <img class="self-center my-2 h-64 shadow-lg" src="${val.poster}" alt="${val.name + "'s poster"}">
-                        <h3 class="text-gray-900 font-semibold text-xl tracking-wide">${val.appName}</h3>
-                        <span class="text-gray-600">${val.school}</span>
+                    <div class="flex flex-col text-gray-600 p-12 md:p-4">
+                        <img class="self-center my-2 h-64 shadow-md" src="${val.poster.img}" alt="${val.name + "'s poster"}">
+                        <h3 class="text-gray-900 font-medium text-xl tracking-wide">${val.appName}</h3>
+                        <span class="text-gray-500">${val.school}</span>
                         <button
                             class="flex flex-row items-center mt-auto self-end block text-blue-700 hover:text-blue-800 hover:border-1 hover:bg-blue-100 rounded-lg focus:ring-2 focus:ring-blue-300 font-medium text-sm p-2 text-right dark:bg-blue-600 dark:focus:ring-blue-800"
                             type="button">
@@ -232,10 +236,10 @@
                                     `<span>${val.members[index]}</span>`);
                             }
 
-                            $("#modal-poster-hl").attr("href", val.poster)
+                            $("#modal-poster-hl").attr("href", val.poster.pdf)
                                 .removeClass(
                                     "hidden").children().attr(
-                                    "src", val.poster);
+                                    "src", val.poster.img);
 
                             $("#ytplayer").attr('src', val.pitch);
                             toggleModal('default-modal');

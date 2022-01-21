@@ -9,7 +9,10 @@
             "Lai Yi Jie Issac",
             "Tham Jie You, Hovan"
         ],
-        "poster": "/assets/posters/HealthPoint.pdf",
+        "poster": {
+            "pdf": "/assets/posters/pdf/HealthPoint.pdf",
+            "img": "/assets/posters/img/HealthPoint.png"
+        },
         "pitch": "https://www.youtube.com/embed/kgoCl_PHaX0"
     },
     {
@@ -22,7 +25,10 @@
             "Rachel Goh ",
             "Kiera Nadine"
         ],
-        "poster": "/assets/posters/MagnumFocus.pdf",
+        "poster": {
+            "pdf": "/assets/posters/pdf/MagnumFocus.pdf",
+            "img": "/assets/posters/img/MagnumFocus.png"
+        },
         "pitch": "https://youtube.com/embed/ldgJJGglu6I"
     },
     {
@@ -34,7 +40,10 @@
             "Kong Shiu Xun Zackery",
             "Vijeyakumar Dakshaa"
         ],
-        "poster": "/assets/posters/DuckyPlanner.pdf",
+        "poster": {
+            "pdf": "/assets/posters/pdf/DuckyPlanner.pdf",
+            "img": "/assets/posters/img/DuckyPlanner.png"
+        },
         "pitch": "https://youtube.com/embed/NRg6dWgIRGE"
     },
     {
@@ -48,20 +57,26 @@
             "Chow Ying Qian",
             "Lim Shuen Yu Calista"
         ],
-        "poster": "/assets/posters/ParrotPatrol.pdf",
+        "poster": {
+            "pdf": "/assets/posters/pdf/ParrotPatrol.pdf",
+            "img": "/assets/posters/img/ParrotPatrol.png"
+        },
         "pitch": "https://www.youtube.com/embed/YnqEBO1Pm7c"
     },
     {
         "name": "Group 3",
         "school": "Crescent Girls' School",
-        "appName": "Group 5 App",
+        "appName": "Study Pal",
         "members": [
             "Cherry Kyaw Kyaw",
             "Chai Sheenyee",
             "Kaivalya Lakshimi Lanka",
             "Nuhaa Afaf Aman"
         ],
-        "poster": "/assets/posters/StudyPal.pdf",
+        "poster": {
+            "pdf": "/assets/posters/pdf/StudyPal.pdf",
+            "img": "/assets/posters/img/StudyPal.png"
+        },
         "pitch": "https://www.youtube.com/embed/z4mtfWLqxhw"
     }
 ]
